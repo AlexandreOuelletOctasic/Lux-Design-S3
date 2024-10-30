@@ -56,10 +56,10 @@ def find_nearest_relic_node(unit_pos, relic_node_positions):
                 actions_data = nearest_node
                 movement_type = "move_toward"
 
-            return {
-                'actions_data': actions_data,
-                'movement_type': movement_type
-            }
+        return {
+            'actions_data': actions_data,
+            'movement_type': movement_type
+        }
 
 # SAVE RELIC NODES
 def save_relic_nodes(id,visible_relic_node_ids, observed_relic_node_positions, discovered_relic_nodes_ids, relic_node_positions):

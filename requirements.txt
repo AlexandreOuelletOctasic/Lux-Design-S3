@@ -1,2 +1,6 @@
 pygame
 jax[cuda12]
+ruff
+torch
+torchvision
+torchaudio
